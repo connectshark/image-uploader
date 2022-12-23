@@ -7,6 +7,9 @@
     "start": "node server",
     "dev": "nodemon server"
   },
+  "repository": {
+    "url": "https://github.com/connectshark/image-uploader",
+  },
   "author": "Chambers",
   "license": "MIT",
   "dependencies": {
