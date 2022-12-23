@@ -6,5 +6,6 @@ const fileUpload = require('express-fileupload')
 router.route('/')
   .post(fileUpload({ createParentPath: true }), controller.uploadHandler)
   .delete(controller.deleteHandler)
+  .patch(controller.updateHandler)
 
 module.exports = router

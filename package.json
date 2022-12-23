@@ -8,7 +8,7 @@
     "dev": "nodemon server"
   },
   "repository": {
-    "url": "https://github.com/connectshark/image-uploader",
+    "url": "https://github.com/connectshark/image-uploader"
   },
   "author": "Chambers",
   "license": "MIT",
