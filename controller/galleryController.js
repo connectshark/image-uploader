@@ -1,7 +1,7 @@
 const imgur_client = require('../imgur/index')
 const ALBUM = process.env.IMGUR_ALBUM_ID
 
-const getAlbum = async (req, res) => {
+const getGallery = async (req, res) => {
   const response = await imgur_client.getAlbum(ALBUM)
   if (response.success) {
     res.status(200).json(response.data)
@@ -11,5 +11,5 @@ const getAlbum = async (req, res) => {
 }
 
 module.exports = {
-  getAlbum
+  getGallery
 }
